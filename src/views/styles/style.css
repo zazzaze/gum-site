@@ -1,0 +1,44 @@
+body{
+    background: linear-gradient(135deg, rgb(255, 232, 250) 0%, rgb(227, 251, 255) 100%);
+    background-color: rgb(228, 228, 228);
+    margin: 0;
+    height: 100vh;
+}
+
+
+form{
+    text-align: center;
+}
+form  input{
+    box-shadow: 1px 1px 10px rgb(104, 124, 126);
+    border-radius: 2px;
+    border: 3px inset black;
+}
+form button{
+    width: auto;
+    padding: 2px 10px 2px 10px;
+}
+form h2{
+    margin: 8px; 
+}
+form a{
+    color:rgb(81, 99, 109);
+    margin-top: 5px;
+    display: block;
+}
+
+
+
+
+.name{
+    margin-top: 100px;
+}
+
+.nickname{
+    margin-top: 30px;
+}
+.submit{
+    margin-top: 25px;
+}
+
+

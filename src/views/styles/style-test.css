@@ -1,0 +1,153 @@
+body{
+    background: linear-gradient(135deg, rgb(255, 232, 250) 0%, rgb(227, 251, 255) 100%);
+    background-color: rgb(228, 228, 228);
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+}
+
+h1,h2,h3,h4,p{
+    margin: 0;
+}
+
+.number{
+padding-top: 20px;
+}
+
+.number-text{
+    display: inline-block;
+    background-color: #5aacbc;
+    vertical-align: middle;
+    color: aliceblue;
+    padding: 0 2px 2px 4px;
+}
+
+.bookmark{
+    display: inline-block;
+    vertical-align: middle;
+    border: 19.4px solid;
+    border-color: #5aacbc #00800000 #5aacbc #5aacbc;
+    margin-left: -4.7px;
+}
+
+
+.question{
+    background-color: #ffffff;
+    margin: 50px auto 0 auto;
+    width:90%;
+    box-shadow: 1px 1px 10px rgb(104, 124, 126);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.question p{
+    padding: 10px;
+    font-size: 1.5rem;
+}
+
+.question button{
+    margin: 10px;
+    width: 5rem;
+    height: 2rem;
+}
+
+.question input{
+    margin-top: 1rem;
+}
+
+input:focus::-webkit-input-placeholder { color:transparent; }
+input:focus:-moz-placeholder { color:transparent; } 
+input:focus::-moz-placeholder { color:transparent; }
+input:focus:-ms-input-placeholder { color:transparent; }
+
+input{
+    padding: 0.5rem 0.1rem;
+}
+
+.register{
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.form{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(112, 177, 110, 0.5);
+    display: none;
+}
+
+.reg h2{
+    margin-top: 10%;
+    font-size: 3rem;
+}
+
+.reg{
+    width: 80%;
+    height: 80vh;
+    margin: 10vh 10%;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reg__labels{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.reg__labels label{
+    margin-top: 2rem;
+}
+
+.close__block{
+    width: 10%;
+    height: 10%;
+    background-color: rgba(66, 66, 66, 0.2);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 13vh;
+    left: 80vw;
+}
+
+.form__close{
+    position: absolute;
+    left: 25%;
+    top: 50%;
+    display: block;
+    width: 50%;
+    height: 3%;
+    background-color: black;
+}
+
+.form__close-first{
+    transform: rotate(45deg);
+}
+
+.form__close-second{
+    transform: rotate(-45deg);
+}
+
+.form__button{
+    width: 20%;
+    height: 2.5rem;
+    background-color: transparent;
+    border-radius: 10px;
+    font-size: 2rem;
+    border: 2px solid rgb(255, 128, 128);
+    cursor: pointer;
+}

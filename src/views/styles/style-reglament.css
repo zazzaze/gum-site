@@ -1,0 +1,37 @@
+p,
+li{
+    font-size: 1.2rem;
+}
+
+h1{
+    text-align: center;
+}
+
+.text{
+    width: 100%;
+}
+
+.green{
+    color: green;
+}
+
+.red{
+    color: red;
+}
+
+.blue{
+    color: blue;
+}
+
+.big{
+    font-size: 1.5rem;
+    color: #3AB5E6;
+}
+
+.starWars{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    text-shadow: #FFE400 2px 2px 0, #FFE400 -2px -2px 0, 
+    #FFE400 -2px 2px 0, #FFE400 2px -2px 0; 
+}

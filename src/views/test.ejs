@@ -1,0 +1,62 @@
+<!DOCTYPE html> 
+<html lang="ru">
+	<head>
+		<title> Регистрация</title>
+		<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+        <link rel="stylesheet" href="/styles/style-test.css" type="text/css">
+    </head>
+
+    <body>
+        <div class="number">
+            <h1 id="number" class="number-text">Вопрос № <span class="number-point"><%= number %></span></h1>
+            <div class="bookmark">
+            </div>
+        </div>
+
+
+        <form class="question" method="POST" onsubmit="return check()">
+            <p><%= question %></p>
+            <input type="hidden" name="points" id="points">
+            <label>
+                <input type="radio" name="answer" type="submit" value="<%= answer1 %>" id="button">
+                <%= answer1 %>
+            </label>
+            <label>
+                <input type="radio" name="answer" type="submit" value="<%= answer2 %>" id="button">
+                <%= answer2 %>
+            </label>
+            <input name="nick" placeholder="Введи ник" required>
+            <input type="text" value="1" name="formType" hidden>
+            <button>Отправить</button>
+        </form>
+        <p class="no"></p><br>
+        <p class="register">Ещё не участвуешь? Тогда скорее <a class="open__reg" href="#">регистрируйся</a> и начинай отвечать на вопросы!</p><br>
+
+        <div class="form">
+            <div class="close__block">
+                <span class="form__close form__close-first"></span>
+                <span class="form__close form__close-second"></span>
+            </div>
+            <form method="POST" class="reg">
+                <h2>Регистрация</h2>
+                <div class="reg__labels">
+                    <label>
+                        <h3>Имя, Фамилия, Класс</h3>
+                        <input type="text" name="name" placeholder="Иван Иванов 1-Г" required>
+                    </label>
+                    <label>
+                        <h3>Ваш никнейм</h3>
+                        <input type="text" name="nickname" placeholder="nick" required>
+                    </label>
+                    <input type="text" value="2" name="formType" hidden>
+                </div>
+                <button class="form__button" type="submit">submit</button>
+            </form>    
+        </div>
+
+        <script src="/js/main.js" type="text/javascript"></script>
+        <script>
+        </script>
+    </body>
+
+</html>

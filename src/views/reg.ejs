@@ -1,0 +1,30 @@
+<!DOCTYPE html> 
+<html lang="ru">
+	<head>
+		<title> Регистрация</title>
+		<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+        <link rel="stylesheet" href="/styles/style.css" type="text/css">
+        <script src="/js/main.js"></script>
+	</head>
+	<body onload="cookieRegInsert()">
+	  <form method="POST">
+			<h1>Регистрация</h1>
+			<div class="name">
+				<h2>Имя фамилия</h2>
+			 <input id="name" name="name" required>
+			</div>
+
+			<div class="nickname">
+				<h2>Ник</h2>
+				<input id="nickname" name="nickname" required>
+			</div>
+
+			<div class="submit">
+			 <button type="submit" onclick="writeCookie()">Зарегестрироваться</button>
+			 <a href="test/1">Я уже зарегистрирован</a>
+			</div>
+		</form>    
+
+
+	</body>
+	</html>
